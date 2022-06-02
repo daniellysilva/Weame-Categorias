@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<meta name="author" content="Danielly Alves Silva">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/5b036e7fb7.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="reformas.css">
+    <title>Navbar</title>
+</head>
+<body>
+    <div class="container" id="nav-container">
+        <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
+            
+                <a href="#" class="d-flex  col-md-3 mb-2 mb-md-0 text-dark text-decoration-none">
+                    <img class="logo" src="img/logo.png" title="We-a-Me" alt="We-a-Me Logo" >
+                </a>
+
+                <form class="" id="pesquisa">
+                  <input type="text"  placeholder="Busque por um serviço ou comércio" >
+                  <button>
+                    <i class="fa-solid fa-magnifying-glass" id="icone"></i>
+                  </button>
+                </form>
+    
+                <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0" id="navbar">
+                  <li id="local"><i id="iconelocal" class="fa-solid fa-location-dot"></i> <li><a id="letralocal" href="#" class="nav-link">Osasco, SP</a></li>
+                  <li id="cliente"><a id="letracliente" href="#" class="nav-link">Olá, Jailson!</a></li>
+                </ul>
+
+        </header>
+      </div>
+
+       <!-- Serviços -->   
+       <div class="container-fluid" id="servicos">
+        <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+            <li><a href="#" class="nav-link px-2" id="navbarlink">Reformas e Reparo</a></li>
+            <li><a href="#" class="nav-link px-2" id="navbarletra">Beleza</a></li>
+            <li><a href="#" class="nav-link px-2 " id="navbarletra">Auto</a></li>
+            <li><a href="#" class="nav-link px-2 " id="navbarletra">Assistência Técnica</a></li>
+            <li><a href="#" class="nav-link px-2 " id="navbarletra">Alimentos</a></li>
+            <li><a href="#" class="nav-link px-2 " id="navbarletra">Programação</a></li>
+            <li><a href="#" class="nav-link px-2 " id="navbarletra">Limpeza</a></li>
+            <li><a href="#" class="nav-link px-2 " id="navbarletra">Design</a></li>
+            <li><a href="#" class="nav-link px-2 " id="navbarletra">Comércio</a></li>
+            <li><a href="#" class="nav-link px-2 " id="navbarletra">Moda</a></li>
+        </ul>
+    <div class="linhahorizontal"></div>
+
+    <!-- main -->
+     
+    <div class="titulo">
+        <h2>Reformas e Reparo</h2>
+    </div>
+   
+    <div class="card mb-3" style="max-width: 775px;" id="cartao">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="img/imagemprofissional.jpg" class="img-fluid " alt="Imagem Profissional do Autônomo" title="Jorge dos Santos" id="imagem">
+            <div id="avaliacao">
+              <ul class="nav col-12" id="estrelas">
+                <li id="nota">4.5</li>
+                <li><i class="fa-solid fa-star"></i></li>
+                <li><i class="fa-solid fa-star"></i></li>
+                <li><i class="fa-solid fa-star"></i></li>
+                <li><i class="fa-solid fa-star"></i></li>
+                <li><i class="fa-solid fa-star-half-stroke"></i></li>
+              </ul>
+              <p class="card-text" id="profissao"><small class="text-muted">Avaliação Profissional </small></p>
+           </div>
+          </div>
+          <div class="col-md-8">
+            <div class="card-body" id="texto">
+              <h5 class="card-title" id="nome">Jorge dos Santos</h5>
+              <p class="card-text" id="profissao"><small class="text-muted">Especialista em Pinturas e Consertos Residenciais. </small></p>
+              <div class="icones">
+                <ul class="nav col-12" id="informacoes">
+                    <li> <i class="fa-solid fa-location-dot"></i>  Osasco</li>
+                    <li> <i class="fa-solid fa-hammer"></i>  17 Serviços</li>
+                    <li> <i class="fa-solid fa-circle-check"></i>  Documentos Verificados</li>
+                </ul>
+              </div>
+                  <div id="texto">
+                    <p class="card-text">Sou prestativo, educado, competente e procuro atender ao máximo as expectativas dos meus clientes e das empresas. Trocas de luminárias, armários, instalações de antenas, pinturas em domicílios e comércios. </p>
+                  </div>
+            </div>
+            <button id="botao">
+              <a href="#">Visitar Perfil</a>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="card mb-3" style="max-width: 775px;" id="cartao">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="img/imagemprofissional2.jpg" class="img-fluid " alt="Imagem Profissional do Autônomo" title="Jorge dos Santos" id="imagem">
+            <div id="avaliacao">
+              <ul class="nav col-12" id="estrelas">
+                <li id="nota">4.5</li>
+                <li><i class="fa-solid fa-star"></i></li>
+                <li><i class="fa-solid fa-star"></i></li>
+                <li><i class="fa-solid fa-star"></i></li>
+                <li><i class="fa-solid fa-star"></i></li>
+                <li><i class="fa-solid fa-star-half-stroke"></i></li>
+              </ul>
+              <p class="card-text" id="profissao"><small class="text-muted">Avaliação Profissional </small></p>
+           </div>
+          </div>
+          <div class="col-md-8">
+            <div class="card-body" id="texto">
+              <h5 class="card-title" id="nome">Jorge dos Santos</h5>
+              <p class="card-text" id="profissao"><small class="text-muted">Especialista em Pinturas e Consertos Residenciais. </small></p>
+              <div class="icones">
+                <ul class="nav col-12" id="informacoes">
+                    <li> <i class="fa-solid fa-location-dot"></i>  Osasco</li>
+                    <li> <i class="fa-solid fa-hammer"></i>  17 Serviços</li>
+                    <li> <i class="fa-solid fa-circle-check"></i>  Documentos Verificados</li>
+                </ul>
+              </div>
+                  <div id="texto">
+                    <p class="card-text">Sou prestativo, educado, competente e procuro atender ao máximo as expectativas dos meus clientes e das empresas. Trocas de luminárias, armários, instalações de antenas, pinturas em domicílios e comércios. </p>
+                  </div>
+            </div>
+            <button id="botao">
+              <a href="#">Visitar Perfil</a>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="card mb-3" style="max-width: 775px;" id="cartao">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="img/imagemprofissional3.jpg" class="img-fluid " alt="Imagem Profissional do Autônomo" title="Jorge dos Santos" id="imagem">
+            <div id="avaliacao">
+              <ul class="nav col-12" id="estrelas">
+                <li id="nota">4.5</li>
+                <li><i class="fa-solid fa-star"></i></li>
+                <li><i class="fa-solid fa-star"></i></li>
+                <li><i class="fa-solid fa-star"></i></li>
+                <li><i class="fa-solid fa-star"></i></li>
+                <li><i class="fa-solid fa-star-half-stroke"></i></li>
+              </ul>
+              <p class="card-text" id="profissao"><small class="text-muted">Avaliação Profissional </small></p>
+           </div>
+          </div>
+          <div class="col-md-8">
+            <div class="card-body" id="texto">
+              <h5 class="card-title" id="nome">Jorge dos Santos</h5>
+              <p class="card-text" id="profissao"><small class="text-muted">Especialista em Pinturas e Consertos Residenciais. </small></p>
+              <div class="icones">
+                <ul class="nav col-12" id="informacoes">
+                    <li> <i class="fa-solid fa-location-dot"></i>  Osasco</li>
+                    <li> <i class="fa-solid fa-hammer"></i>  17 Serviços</li>
+                    <li> <i class="fa-solid fa-circle-check"></i>  Documentos Verificados</li>
+                </ul>
+              </div>
+                  <div id="texto">
+                    <p class="card-text">Sou prestativo, educado, competente e procuro atender ao máximo as expectativas dos meus clientes e das empresas. Trocas de luminárias, armários, instalações de antenas, pinturas em domicílios e comércios. </p>
+                  </div>
+            </div>
+            <button id="botao">
+              <a href="#">Visitar Perfil</a>
+            </button>
+          </div>
+        </div>
+      </div>
+</div>
+</body>
+</html>
